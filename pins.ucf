@@ -1,0 +1,8 @@
+NET "clk"              LOC = P129  | IOSTANDARD = LVCMOS33 | PERIOD = 12MHz;
+NET "synth_out"        LOC = P31   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+
+NET "keys[0]"          LOC = P19   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "keys[1]"          LOC = P21   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "keys[2]"          LOC = P18   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "keys[3]"          LOC = P20   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "keys[4]"          LOC = P15   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
